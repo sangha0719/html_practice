@@ -1,0 +1,28 @@
+tag로 관리 하는 것이 중요하다
+tag는 2종류가 있다
+
+1. box가 되는 것
+    - 아이템들의 섹션이 되어주는 보이지 않는 것
+    - css를 통해 스타일링이 가능하다
+    - header, section, footer, article, nav, div, aside, span, main, form 등
+
+2. item이 되는 것
+    - 사용자에게 보여지는 것
+    - a, video, button, audio, input, map, label, canvas, img, table 등
+
+웹 사이트의 구조가 되는 기초
+    - 섹션 tag를 사용하여 구분하는 것이 중요하다.
+    - main 또한 디자인에 따라 여러 section으로 구분할 수 있다.
+    - section 안에는 article이 존재하고 그 안에는 text들이 존재하게 된다.
+    - article 은 반복되는 것들 재사용 가능한 것들을 묶어주는 역할을 한다.
+    
+사용자들에게 보여지는 item들은 2가지로 나누어 볼 수 있다.
+
+1. Block
+    - Block 레벨의 element는 한 줄에 하나만 배치 가능하다
+
+2. Inline
+    - Inline 레벨의 element는 공간이 허용하면 옆에 배치가 가능하다.
+
+tag는 <>를 사용해서 시작하고 </>를 통해 마무리 된다.
+tag 안에는 Attributes라는 속성이 있다.
