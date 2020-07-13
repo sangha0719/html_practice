@@ -1,0 +1,27 @@
+css 기초
+
+1. 의미, 정의
+
+2. 선택자
+
+3. 스타일링
+
+4. 헷갈리는 컨셉
+
+5. css의 꽃 : Flex Box
+
+* CSS 란?
+Cascading Style Sheet의 약자이다.
+
+Cascading = 연속화, 폭포식
+
+Author Style(CSS) = 웹 사이트를 만들 때 작성, 제공하는 style sheet를 얘기한다.
+
+User Style = 브라우저 상에서 사용자의 취향에 맞게 스타일을 바꿀 수 있는 것들을 의미한다.
+
+Browser = 브라우저에서 기본적으로 지정된 스타일을 의미한다.
+
+Author Style -> User Style -> Browser 순으로 떨어진다.
+
+!important 은 Cascading을 무시하고 가장 중요한 스타일을 지정해준다.
+보통의 경우에는 가능하면 !important을 사용하지 않는 것이 좋다.

@@ -1,0 +1,10 @@
+.red {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px dashed red;
+    background: yellow;
+}
+
+/* 속성값들은 css 레퍼런스에 가서 확인하고 사용하자! */
