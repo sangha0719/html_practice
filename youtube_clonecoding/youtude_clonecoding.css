@@ -78,8 +78,22 @@ button.morebutton {
 }
 
 .buttons button {
+  display: flex;
+  flex-direction: column;
   background-color: unset;
   border: none;
+  align-items: center;
+  color: gray;
+}
+
+.buttons button:active,
+.buttons button:hover,
+.buttons button:focus {
+  outline-style: none;
+}
+
+.buttons .blue-button {
+  color: blue;
 }
 
 .youtuber {
@@ -110,12 +124,44 @@ button.morebutton {
   border: none;
   background-color: unset;
   color: red;
+  outline-style: none;
 }
 
 .nextvideo {
-  background-color: yellow;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
 }
 
-.nextvideo .nextvideo__title {
-    
+.nextvideo .nextvideo__content {
+  display: flex;
+  flex-direction: column;
+  /* flex-flow: 3, 1, 1; */
+}
+
+.nextvideo .nextvideo__content > div {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.nextvideo__content iframe {
+  flex-flow: 1, 1, 30%;
+}
+
+.nextvideo__content .nextvideo__content__info {
+  display: flex;
+  flex-flow: 1, 1, 65%;
+  flex-direction: column;
+}
+
+.nextvideo__content i {
+  flex-flow: 1, 1, 5%;
+}
+
+@media screen and (min-width: 786px) {
+  .infoAndNextVideo {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+  }
 }
