@@ -70,23 +70,26 @@ const students = [
   // console.log(result2);
   // every의 경우는 모두 만족해야 한다.
 }
-console.clear();
+// console.clear();
 // Q9. compute students' average score
 {
-  const average_score = students.reduce((prev, curr) => {
-    console.log("-------------");
-    console.log(prev);
-    console.log(curr);
-    return curr;
-  });
+  const average_score = students.reduce((prev, curr) => prev + curr.score, 0);
+  console.log(average_score / students.length);
 }
 
 // Q10. make a string containing all the scores
 // result should be: '45, 80, 90, 66, 88'
 {
+  const result = students.map((student) => student.score).join();
+  console.log(result);
 }
 
 // Bonus! do Q10 sorted in ascending order
 // result should be: '45, 66, 80, 88, 90'
 {
+  const result = students
+    .map((student) => student.score)
+    .sort((a, b) => a - b)
+    .join();
+  console.log(result);
 }
